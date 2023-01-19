@@ -21,11 +21,24 @@ img {
 .text {
     background-color: rgb(208, 197, 197);
     display: inline-block;
-    margin: 10px;
+    margin: 30px 80px;
     padding: 50px;
     width: 500px;
-
+    height: 200px;
 }
+
+.text.relatorio {
+    margin-left: 150px;
+}
+
+.text p {
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+
 footer {
     background-color: darkgray;
     text-align: center;
@@ -35,10 +48,7 @@ footer {
     /* justify-content: space-around; */
 }
 
-/* h3 {
-    text-align: center;
-}
-
+/* 
 
 .text {
     width: 300px;
@@ -54,17 +64,3 @@ footer {
 .infos{
     display: inline-block;
 } */
-
-/* .text p {
-    text-align: justify;
-}
-
-
-
-.imagens {
-    width: 300px;
-    display: inline;
-    margin: 0 auto;
-}
-
- */
