@@ -20,6 +20,7 @@ header, .fotos-zoo {
 }
 
 main{
+    /* faz a centralizacao dos blocos */
     width: fit-content;
     margin: 0 auto;
 }
@@ -27,34 +28,32 @@ main{
     width: 500px;
     height: 200px;
     text-align: center;
+    /* display inline-block permite colocar os dois blocos na mesma linha, já que o formato section é block */
     display: inline-block;
     margin: 10px auto;
     padding: 30px;
+    /* faz o alinhamento dos blocos, ja que um estava mais baixo q o outro */
     vertical-align: top;
 }
 .relatorio {
     margin-right: 200px;
 }
-
 .relatorio, .infos {
     background-color: rgb(199, 217, 229);
 }
-
 
 img {
     width: 500px;
     height: 300px;
 }
-
 img:nth-child(1) {
     margin-right: 200px;
 }
-
 .fotos-zoo {
     margin: 0 auto;
 }
-
 .imagens {
+    /* faz a centralizacao das imagens */
     width: fit-content;
     margin: 10px auto;
 }
@@ -63,7 +62,6 @@ footer p {
     width: fit-content;
     margin: 0 auto;
 }
-
 footer {
     background-color: rgb(203, 255, 217);
     padding: 20px;
